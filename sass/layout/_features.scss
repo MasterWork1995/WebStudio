@@ -1,0 +1,38 @@
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.features-title {
+  text-align: left;
+  text-transform: uppercase;
+}
+  
+.features-text {
+  margin: 0;
+  
+  width: 270px;
+  height: 75px;
+  
+  font-size: 14px;
+  line-height: 1.71;
+}
+  
+.features-section {
+  padding-bottom: 0;
+}
+  
+.thumb-features {
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--second-bgc);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.features-decoration {
+  width: 70px;
+  height: 70px;
+}
