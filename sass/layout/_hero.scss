@@ -41,7 +41,7 @@
         var(--hero-overlay),
         var(--hero-overlay)
       ),
-      url('/images/hero/mobile-hero@2x.jpg');
+      url('../images/hero/mobile-hero@2x.jpg');
   }
 }
 
@@ -67,7 +67,7 @@
           var(--hero-overlay),
           var(--hero-overlay)
         ),
-        url('/images/hero/tablet-hero@2x.jpg');
+        url('../images/hero/tablet-hero@2x.jpg');
     }
   }
 }
@@ -102,7 +102,7 @@
           var(--hero-overlay),
           var(--hero-overlay)
         ),
-        url('/images/hero/desctop-hero@2x.jpg');
+        url('../images/hero/desctop-hero@2x.jpg');
     }
   }
 }
