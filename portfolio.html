@@ -13,9 +13,44 @@
     
     <!-- Шапка -->
     <header class="page-header portfolio-header">
-        <div class="container main-nav">
+        <div class="container">
             <nav class="main-nav">
                 <a href="./index.html" class="logo header-logo"><span class="web-logo">Web</span>Studio</a>
+                                <button type="button" class="mobile-menu" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+                                    <svg class="mobile-menu-icon" aria-label="Переключатель мобильного меню">
+                                        <use class="burger-icon" href="./images/sprite.svg#icon-burger"></use>
+                                        <use class="burger-close-icon" href="./images/sprite.svg#icon-burger-close"></use>
+                                    </svg>
+                                </button>
+                                <div class="menu-container" id="menu-container" data-menu>
+                                    <ul class="menu-container-list list">
+                                        <li class="menu-container-item item">
+                                            <a href="./index.html" class="menu-container-link link ">Студия</a>
+                                        </li>
+                                        <li class="menu-container-item item">
+                                            <a href="./portfolio.html" class="menu-container-link link mobile-current">Портфолио</a>
+                                        </li>
+                                        <li class="menu-container-item item">
+                                            <a href="" class="menu-container-link link">Контакты</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="mobile-contacts-list list">
+                                        <li class="mobile-contacts-item item">
+                                            <a href="mailto:info@devstudio.com" class="contacts-link link">
+                                                <svg class="contact-icon envelope">
+                                                    <use href="./images/sprite.svg#envelope"></use>
+                                                </svg>
+                                                info@devstudio.com</a>
+                                        </li>
+                                        <li class="mobile-contacts-item item">
+                                            <a href="tel:+380961111111" class="contacts-link link">
+                                                <svg class="contact-icon smartphone">
+                                                    <use href="./images/sprite.svg#smartphone"></use>
+                                                </svg>
+                                                +38 096 111 11 11</a>
+                                        </li>
+                                    </ul>
+                                </div>
                 <ul class="site-nav list">
                     <li class="item">
                         <a href="./index.html" class="link">Студия</a>
@@ -239,5 +274,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

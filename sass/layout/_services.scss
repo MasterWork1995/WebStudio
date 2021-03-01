@@ -1,7 +1,17 @@
-.services-list {
-  display: flex;
+.services-section {
+  display: none;
 }
- 
-.services-title {
-   margin-bottom: 50px;
+
+@media screen and (min-width: 1200px) {
+  .services-section {
+    display: block;
+  }
+
+  .services-list {
+    display: flex;
+  }
+
+  .services-title {
+    margin-bottom: 50px;
+  }
 }
