@@ -673,8 +673,8 @@ img {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overlay)), to(var(--hero-overlay))), url("/images/hero/mobile-hero@2x.jpg");
-    background-image: linear-gradient(to right, var(--hero-overlay), var(--hero-overlay)), url("/images/hero/mobile-hero@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overlay)), to(var(--hero-overlay))), url("../images/hero/mobile-hero@2x.jpg");
+    background-image: linear-gradient(to right, var(--hero-overlay), var(--hero-overlay)), url("../images/hero/mobile-hero@2x.jpg");
   }
 }
 
@@ -689,8 +689,8 @@ img {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overlay)), to(var(--hero-overlay))), url("/images/hero/tablet-hero@2x.jpg");
-    background-image: linear-gradient(to right, var(--hero-overlay), var(--hero-overlay)), url("/images/hero/tablet-hero@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overlay)), to(var(--hero-overlay))), url("../images/hero/tablet-hero@2x.jpg");
+    background-image: linear-gradient(to right, var(--hero-overlay), var(--hero-overlay)), url("../images/hero/tablet-hero@2x.jpg");
   }
 }
 
@@ -712,8 +712,8 @@ img {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overlay)), to(var(--hero-overlay))), url("/images/hero/desctop-hero@2x.jpg");
-    background-image: linear-gradient(to right, var(--hero-overlay), var(--hero-overlay)), url("/images/hero/desctop-hero@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overlay)), to(var(--hero-overlay))), url("../images/hero/desctop-hero@2x.jpg");
+    background-image: linear-gradient(to right, var(--hero-overlay), var(--hero-overlay)), url("../images/hero/desctop-hero@2x.jpg");
   }
 }
 
