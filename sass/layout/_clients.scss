@@ -62,7 +62,23 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
+  .clients-link {
+    width: 100%;
+  }
+
+  .clients-list {
+    display: block;
+  }
+
+  .clients-item {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .clients-item {
     &:nth-last-child(2n) {
       margin-right: 30px;

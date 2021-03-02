@@ -39,6 +39,7 @@ body {
 }
 
 img {
+  max-width: 100%;
   display: block;
 }
 
@@ -344,11 +345,21 @@ img {
   position: relative;
 }
 
-@media screen and (min-width: 767px) {
+.footer-modal-input {
+  display: block;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
   .footer-modal-input {
-    display: block;
-    margin-bottom: 20px;
-    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-modal-input {
+    width: 450px;
   }
 }
 
@@ -865,6 +876,10 @@ img {
   fill: var(--primary-white-color);
 }
 
+.team-list-item {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .team-list {
     display: -webkit-box;
@@ -953,7 +968,19 @@ img {
       flex-wrap: wrap;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
+  .clients-link {
+    width: 100%;
+  }
+  .clients-list {
+    display: block;
+  }
+  .clients-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .clients-item:nth-last-child(2n) {
     margin-right: 30px;
   }
@@ -1050,13 +1077,6 @@ img {
 
 .footer-item-link {
   background-color: var(--footer-social-bgc);
-}
-
-.footer-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1213,8 +1233,8 @@ img {
 }
 
 .modal-window {
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   padding: 40px;
   position: absolute;
   left: 50%;
@@ -1266,6 +1286,22 @@ img {
   pointer-events: none;
 }
 
+@media screen and (max-width: 767px) {
+  .modal-window {
+    width: 450px;
+    height: 95%;
+    max-height: 609px;
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-window {
+    width: 528px;
+    height: 581px;
+  }
+}
+
 .modal-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1279,7 +1315,7 @@ img {
 .modal-form-title {
   margin-bottom: 12px;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
 }
 
 .modal-form-input-label {
@@ -1382,17 +1418,17 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 30px;
-  font-size: 14px;
-  line-height: 1.714;
+  font-size: 12px;
+  line-height: 1.167;
 }
 
 .modal-form-label-policy::before {
   display: inline-block;
-  content: "";
+  content: '';
   width: 16px;
   height: 15px;
   outline: 1px solid #212121;
-  margin-right: 7px;
+  margin-right: 5px;
   border-radius: 2px;
 }
 
@@ -1407,6 +1443,17 @@ img {
 
 .policy-link {
   color: var(--accent-color);
-  margin-left: 5px;
+  margin-left: 3px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form-title {
+    font-size: 20px;
+    line-height: 1.15;
+  }
+  .modal-form-label-policy {
+    font-size: 14px;
+    line-height: 1.714;
+  }
 }
 /*# sourceMappingURL=main.css.map */
