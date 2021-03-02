@@ -1,7 +1,7 @@
 .portfolio-filters {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .portfolio-filters-btn {
@@ -33,5 +33,18 @@
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-filters {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-filters {
+    margin-bottom: 50px;
   }
 }
