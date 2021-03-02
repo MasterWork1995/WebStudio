@@ -4,13 +4,12 @@
 
   text-align: center;
 
-  // display: flex;
   background-color: var(--prime-bgc);
   color: var(--primary-white-color);
 }
 
 .footer-address {
-  // margin-right: 70px;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.714;
   margin-bottom: 60px;
@@ -29,7 +28,6 @@
   }
 
   .footer-address &:not(:last-child) {
-    // margin-bottom: 9px;
     margin-bottom: 8px;
   }
 }
