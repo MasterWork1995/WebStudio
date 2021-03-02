@@ -892,6 +892,9 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .team-list-item {
+    width: 270px;
+  }
   .team-list-item:not(:last-child) {
     margin-right: 30px;
   }
