@@ -4,7 +4,7 @@
 }
 
 .features-title {
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -28,6 +28,10 @@
   .features-list {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .features-title {
+    text-align: left;
   }
 }
 
