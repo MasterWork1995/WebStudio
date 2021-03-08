@@ -708,7 +708,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
+    max-width: 100%;
     background-color: #c4c4c4;
     background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overlay)), to(var(--hero-overlay))), url("../images/hero/tablet-hero.jpg");
     background-image: linear-gradient(to right, var(--hero-overlay), var(--hero-overlay)), url("../images/hero/tablet-hero.jpg");
@@ -731,7 +731,7 @@ img {
   }
   .hero {
     padding: 200px 0px;
-    max-width: 100%;
+    max-width: 1600px;
     background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overlay)), to(var(--hero-overlay))), url("../images/hero/desctop-hero.jpg");
     background-image: linear-gradient(to right, var(--hero-overlay), var(--hero-overlay)), url("../images/hero/desctop-hero.jpg");
     background-color: #c4c4c4;
